@@ -40,8 +40,8 @@ const ModelsWrapper: React.FC = ({children}) => {
       getModelByName
     }}>
       <Container ref={wrapperRef}>
-      {children}
-    </Container>
+        {children}
+      </Container>
     </ModelsContext.Provider>
   );
 };
